@@ -3,7 +3,7 @@ import { checkFileIsImage, checkFileMaxSize } from './FileValidationHelper.js'
 const maxFileSize = 2000000 // around 2Mb
 
 //SOLUCION
-import { Restaurant } from '#root/src/models/models.js'
+import { Restaurant } from '../../models/models.js'
 
 //SOLUCION
 const checkExistingPromote = async (ownerId, value) => {
